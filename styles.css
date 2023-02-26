@@ -1,0 +1,76 @@
+:root {
+    --purple: #3e0249;
+}
+
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.game-board {
+    padding: 40px;
+    width: 95vw;
+    max-width: 73vh;
+    aspect-ratio: 1/1;
+    background-color: grey;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* .square{
+    border: 2px solid var(--purple);
+} */
+
+h1.title {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--purple);
+    text-transform: uppercase
+}
+
+
+/* Don't need these since borders were drawn with JS */
+/* #square0 {
+    border-right: 2px solid var(--purple);
+    border-bottom: 2px solid var(--purple);
+
+}
+
+#square1 {
+    border-right: 2px solid var(--purple);
+    border-bottom: 2px solid var(--purple);
+}
+
+#square2 {
+    border-bottom: 2px solid var(--purple);
+}
+
+#square3 {
+    border-right: 2px solid var(--purple);
+    border-bottom: 2px solid var(--purple);
+
+}
+
+#square4 {
+    border-right: 2px solid var(--purple);
+    border-bottom: 2px solid var(--purple);
+}
+
+#square5 {
+    border-bottom: 2px solid var(--purple);
+}
+
+#square6 {
+    border-right: 2px solid var(--purple);
+}
+
+#square7 {
+    border-right: 2px solid var(--purple);
+} */
