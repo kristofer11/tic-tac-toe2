@@ -24,9 +24,9 @@ align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* .square{
-    border: 2px solid var(--purple);
-} */
+.square{
+    font-size: 5rem;
+}
 
 h1.title {
     text-align: center;
