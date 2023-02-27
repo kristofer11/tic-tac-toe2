@@ -19,6 +19,7 @@ body {
 .game-board {
     padding: 40px;
     width: 95vw;
+    min-width: 555px;
     max-width: 73vh;
     aspect-ratio: 1/1;
     display: grid;
