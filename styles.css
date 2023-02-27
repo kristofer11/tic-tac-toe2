@@ -1,16 +1,19 @@
 :root {
-    --purple: #3e0249;
+    --green: #20C20E;
 }
 
-body{
-display: flex;
-flex-direction: column;
-align-items: center;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 * {
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--green);
+    background-color: black;
 }
 
 .game-board {
@@ -18,21 +21,42 @@ align-items: center;
     width: 95vw;
     max-width: 73vh;
     aspect-ratio: 1/1;
-    background-color: grey;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.square{
-    font-size: 5rem;
+.square {
+    font-size: 8rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1.title {
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 4rem;
     color: var(--purple);
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+#restartBtn {
+    width: fit-content;
+    aspect-ratio: 6/2;
+    font-size: 3rem;
+    background-color: blue;
+    border: 2px solid var(--green);
+}
+
+#turnIndicator {
+    color: var(--green);
+    font-size: 1rem;
+    border: 2px solid var(--green);
+    padding: 1rem;
+    background-color: blue
 }
 
 
