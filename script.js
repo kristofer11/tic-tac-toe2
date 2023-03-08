@@ -16,7 +16,6 @@ const gameBoard = {
 
 //Checks every possible winning scenario and changes player's winning state if condition is met
 function checkWinner() {
-    const winner = 'x';
     const turnIndicator = document.querySelector('#turnIndicator');
 
     //Changes turn indicator into a declaration of the winner

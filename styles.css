@@ -50,6 +50,14 @@ h1.title {
     font-size: 3rem;
     background-color: blue;
     border: 2px solid var(--green);
+    cursor: pointer;
+}
+
+#restartBtn:hover {
+    transform: scale(1.2);
+    background-color: var(--green);
+    color: blue;
+    border: 2px solid blue;
 }
 
 #turnIndicator {
@@ -60,12 +68,10 @@ h1.title {
     background-color: blue
 }
 
-
 /* Don't need these since borders were drawn with JS */
 /* #square0 {
     border-right: 2px solid var(--purple);
     border-bottom: 2px solid var(--purple);
-
 }
 
 #square1 {
